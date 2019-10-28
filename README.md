@@ -1,5 +1,4 @@
-# zaloni-project
-zaloni-project
+sample-nginx-webserver-with-ALB-project
 Above Creates
 ● An EC2 instance of type t2.micro based on any linux distro. 
 ● A Load Balancer forwarding incoming requests to the EC2 instance. 

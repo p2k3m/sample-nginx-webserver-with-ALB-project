@@ -57,7 +57,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   associate_public_ip_address = "true"
   key_name                    = "${var.ec2_key_pair_name}"
- # key_name = "${aws_key_pair.terraform-demo.key_name}"
   user_data = <<-EOF
     #! /bin/bash
     sudo apt-get update
